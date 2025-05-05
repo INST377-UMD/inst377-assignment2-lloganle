@@ -1,4 +1,3 @@
-/* getting slider from simple slider and dog picture api */
 async function dogSlider() {
     let slider = document.getElementById("dogSlider");
 
