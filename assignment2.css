@@ -1,0 +1,113 @@
+body{
+    background-color: beige;
+}
+
+
+#main-nav{
+    background-color: rgb(206, 85, 37);
+    color: blue
+}
+
+#main-nav li{
+    display: inline-block;
+}
+
+#main-nav ul{ 
+    text-align: center;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav li:hover{
+    background-color: white;
+    color: rgb(185, 67, 67);
+}
+
+
+.audio_on_off{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: 2px solid;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 30%;
+}
+
+.button:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button,
+.button:focus {
+  user-select: auto;
+}
+
+.button:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button:disabled {
+  cursor: auto;
+}
+
+.button:active {
+  border-width: 4px 0 0;
+  background: none;
+}
