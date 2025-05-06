@@ -1,12 +1,11 @@
 async function fetchQuote() {
     try {
-        const response = await fetch('https://zenquotes.io/api/random');
+        const response = await fetch("https://zenquotes.io/api/quotes/");
         const data = await response.json();
-        document.getElementById('quote').innerText = `"${data[0].q}"`;
-        document.getElementById('author').innerText = `— ${data[0].a}`;
-    } catch (error) {
-        document.getElementById('quote').innerText = 'Could not load quote.';
-        console.error(error);
+        quoteEl.textContent = `"${data[0].q}" - ${data[0].a}`;
+    } catch (e) {
+        document.getElementById('quote').innerText = 'Failed to load quote';
     }
 }
 fetchQuote();
+

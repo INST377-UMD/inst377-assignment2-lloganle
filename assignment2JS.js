@@ -17,13 +17,13 @@ if (annyang){
         "navigate to *page": (page) => {
             responsepage = page.toLowerCase();
             if (responsepage === "home"){
-                window.location.href = "home.html";
+                window.location.href = "homePage.html";
             }
             else if (responsepage === "stocks"){
-                window.location.href = "stocks.html";
+                window.location.href = "stocksPage.html";
             }
             else if (responsepage === "dogs"){
-                window.location.href = "dogs.html";}
+                window.location.href = "dogsPage.html";}
         },
         "lookup *ticker": ticker => {
         document.getElementById("ticker").value = ticker.toUpperCase();
