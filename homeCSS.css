@@ -1,0 +1,54 @@
+.buttons_webpages{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-74 {
+  background-color: #f4a6c1; 
+  border: 2px solid #b03a6a;
+  border-radius: 30px;
+  box-shadow: #b03a6a50 4px 4px 0 0; 
+  color: #6a0037; 
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #ffe4ed; 
+}
+
+.button-74:active {
+  box-shadow: #6a0037 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+  .quote_box{
+      margin-top: 20px;
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
