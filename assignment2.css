@@ -30,7 +30,7 @@ body{
 
 .audio_on_off{
     margin-top: 20px;
-    background-color: green;
+    background-color: rgba(168, 33, 125, 0.669);
     color: white;
     border: 2px solid;
     width: fit-content;
@@ -49,7 +49,7 @@ body{
 
 .button {
   appearance: button;
-  background-color: #000000;
+  background-color: #322f2f31;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
